@@ -31,7 +31,7 @@ Target use case: sales/demand forecasting with weekly seasonality and long horiz
 
 ```
 residual-ar-lstm/
-├─ residual_ar_lstm.py
+├─ Sales_Prediction_LSTM.py
 ├─ requirements.txt
 ├─ README.md
 └─ train.csv
