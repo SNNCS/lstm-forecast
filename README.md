@@ -50,15 +50,15 @@ The script expects a CSV file named `train.csv` with the following columns:
 
 ## How To Run
 
-# 1. Install dependencies
+### 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Prepare data
-# Place train.csv in the repo root with columns: date, store, item, sales
+### 2. Prepare data
+Place train.csv in the repo root with columns: date, store, item, sales
 
-# 3. Run training + forecasting
+### 3. Run training + forecasting
 python residual_ar_lstm.py
 
-# 4. Check outputs
-# - Console logs training losses
-# - Matplotlib plot shows last 30d actual + 90d forecast
+### 4. Check outputs
+- Console logs training losses
+- Matplotlib plot shows last 30d actual + 90d forecast
