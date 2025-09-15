@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Place train.csv in the repo root with columns: date, store, item, sales
 
 ### 3. Run training + forecasting
-python residual_ar_lstm.py
+python Sales_Prediction_LSTM.py
 
 ### 4. Check outputs
 - Console logs training losses
